@@ -1,0 +1,126 @@
+body {
+    position: relative;
+}
+
+.navbar-item-custom, .navbar-item-custom a {
+    color: #fff;
+}
+
+.footer-custom {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #dfeaff;
+    padding-top: 25px;
+}
+
+.product-item {
+    margin-top: 50px;
+}
+
+.product-item h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.product-item .product-subtitle {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-item .product-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product-page-price {
+    font-size: 19px;
+}
+
+.product-container {
+    margin-bottom: 150px;
+}
+
+.cart-icon {
+    height: 20px;
+    padding-left: 20px;
+}
+
+.block-small {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-check {
+    background: #f4f8ff;
+    padding: 20px 40px;
+    margin-top: 7px;
+}
+
+.col-form-label {
+    font-weight: bold;
+}
+
+.order-summary {
+    background: #f4f8ff;
+    padding: 20px;
+}
+
+.marketing #card-show {
+    width: 500px;
+    height: 300px;
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.marketing #card-show .card-content {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#card-show .card-content .card-image {
+    position: absolute;
+    left: 15px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #000;
+}
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+#card-show .card-content .bkg {
+    width: 100%;
+    height: 50px;
+    background: #38b5e0;
+    text-align: right;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Gotham Black', sans-serif;
+}
+.bkg p {
+    margin-right: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.account-item {
+    background-color: #f1f2f6;
+    padding: 70px;
+}
+.account-item a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4b6584;
+}

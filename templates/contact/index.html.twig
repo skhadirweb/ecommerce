@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nous contacter - Ecommerce{% endblock %}
+
+{% block content %}
+    <h2>Nous contacter</h2>
+    {% for message in app.flashes('notice') %}
+        <div class="alert alert-info">{{ message }}</div>
+    {% endfor %}
+    <div class="row">
+        <div class="col-md-8">{{ form(form) }}</div>
+        <div class="col-md-4">
+            <strong>Ecommerce</strong>
+            <hr>
+            06 10 20 30 40 <br>
+            12 rue des Marseillais <br>
+            contact@ecommerce.fr <br>
+        </div>
+    </div>
+{% endblock %}
